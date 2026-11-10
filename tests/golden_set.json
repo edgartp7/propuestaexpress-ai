@@ -1,0 +1,152 @@
+[
+  {
+    "id": "caso_01_ecommerce_retail",
+    "titulo": "Tienda de Calzado y Accesorios 'Calzados Austral'",
+    "input": {
+      "cliente": "Calzados Austral SpA",
+      "servicio": "Desarrollo Web & eCommerce",
+      "tono": "Persuasivo / Comercial",
+      "moneda": "CLP",
+      "notas_reunion": "Reunión con Don Roberto. Tienen tienda física en Concepción y venden algo por Instagram pero es un desastre coordinar transferencias. Quieren catálogo online con carrito Shopify o WooCommerce. Don Roberto no sabe mucho de tecnología. Necesitan pago con Webpay Plus y Mercado Pago, e integración con Starken o Chilexpress para envíos automáticos. Presupuesto estimado conversado: alrededor de 2 a 3 millones de pesos. Plazo: idealmente antes de Navidad (en 6 semanas). Ojo: no tienen fotos profesionales de los productos, nosotros tendríamos que asesorarlos o dejarlas en plantilla para que las suban. No quieren pagar mantención mensual alta."
+    },
+    "criterios_evaluacion": [
+      "Debe identificar claramente el problema de ventas por Instagram y pagos manuales.",
+      "Debe explicitar en 'Fuera de Alcance' la fotografía profesional de productos para evitar sobrecostos.",
+      "Debe generar un cronograma estricto de máximo 6 semanas con entregables claros.",
+      "Debe presentar tabla presupuestaria en CLP totalizando entre $2.200.000 y $2.800.000 con hitos claros."
+    ],
+    "resultado_v1": {
+      "diagnostico": "Propuesta genérica que habla de 'crear una web moderna'.",
+      "alcance": "No definió exclusiones; asumió que el proveedor tomaría las fotos de los productos.",
+      "cronograma": "Dijo 'tomará un tiempo prudente' sin definir semanas exactas.",
+      "presupuesto": "Indicó '$2.500.000 aprox.' en un párrafo de texto sin desglose por fases ni tabla."
+    },
+    "resultado_v2": {
+      "diagnostico": "Enfocado en profesionalizar las ventas de Concepción y automatizar Webpay/Starken antes de Navidad.",
+      "alcance": "Lista exhaustiva de 5 ítems incluidos y 3 exclusiones críticas (fotografía de estudio, comisiones de pasarela de pago y licencias de terceros).",
+      "cronograma": "Hitos semanales: Sem 1-2 (Diseño y Arquitectura), Sem 3-4 (Pasarelas y Catálogo), Sem 5-6 (Pruebas Webpay y Lanzamiento).",
+      "presupuesto": "Tabla Markdown con Fase 1 ($800.000), Fase 2 ($1.200.000), Fase 3 ($500.000), Total $2.500.000 CLP. Condición 50/30/20."
+    },
+    "mejora_medida": "De 1/4 criterios cumplidos en v1 a 4/4 en v2. Tabla presupuestaria con consistencia matemática 100%."
+  },
+  {
+    "id": "caso_02_clinica_dental",
+    "titulo": "Clínica Odontológica 'DentalPlus'",
+    "input": {
+      "cliente": "Clínica DentalPlus",
+      "servicio": "Consultoría Estratégica & Automatización",
+      "tono": "Ejecutivo / Formal",
+      "moneda": "USD",
+      "notas_reunion": "Hablamos con Dra. Marcela. Tienen 4 sillones dentales y 6 odontólogos. Problema grave: tasa de inasistencia (no-show) del 32% en citas agendadas, lo que les cuesta miles de dólares al mes en horas médicas perdidas. La recepcionista pasa el día enviando WhatsApps a mano y se le olvidan pacientes. Quieren automatizar confirmaciones de citas por WhatsApp API oficial integrado a su Google Calendar o software de clínica. Además, quieren que si un paciente cancela, se ofrezca ese cupo automáticamente a una lista de espera. Presupuesto disponible: $1,500 - $2,500 USD. Quieren medir reducción de no-show en 90 días."
+    },
+    "criterios_evaluacion": [
+      "Debe cuantificar el dolor: 32% de no-show y horas médicas ociosas.",
+      "Debe incluir la lógica de confirmación automática y lista de espera inteligente.",
+      "Debe excluir expresamente el costo de consumo de la API oficial de Meta/WhatsApp (que paga el cliente directamente).",
+      "Tabla presupuestaria en USD con total de $2,000 USD y métricas de éxito a 90 días."
+    ],
+    "resultado_v1": {
+      "diagnostico": "Trata el proyecto como un chatbot genérico sin mencionar el impacto del 32% de inasistencia.",
+      "alcance": "No especifica quién asume el costo de los mensajes de WhatsApp Business API.",
+      "cronograma": "3 meses sin hitos intermedios tangibles.",
+      "presupuesto": "Menciona $2.000 USD sin tabla ni condiciones de pago."
+    },
+    "resultado_v2": {
+      "diagnostico": "Enfoque clínico-financiero directo a recuperar la rentabilidad de los 4 sillones reduciendo el ausentismo.",
+      "alcance": "Detalla integración WhatsApp Cloud API + Calendario + Algoritmo de Lista de Espera. Excluye costo por conversación de Meta.",
+      "cronograma": "Fase 1 (Semanas 1-2: Flujo WhatsApp y Setup), Fase 2 (Semanas 3-4: Automatización de Lista de Espera), Fase 3 (Semanas 5-6: Capacitación y Go-Live).",
+      "presupuesto": "Tabla detallada: Setup & Flujos ($900), Integración & Espera ($800), Marcha Blanca ($300). Total: $2,000 USD."
+    },
+    "mejora_medida": "Precisión en exclusiones contractuales subió de 0% a 100%. Redacción ejecutiva orientada a ROI clínico."
+  },
+  {
+    "id": "caso_03_agencia_marketing_b2b",
+    "titulo": "Empresa de Ciberseguridad 'ShieldTech'",
+    "input": {
+      "cliente": "ShieldTech Security",
+      "servicio": "Marketing Digital & Generación de Leads B2B",
+      "tono": "Persuasivo / Comercial",
+      "moneda": "USD",
+      "notas_reunion": "Reunión con gerente comercial Carlos Mora. Venden soluciones de SOC y pentesting a bancos y retail. Su ciclo de venta es de 6 meses. No tienen leads entrantes de calidad; dependen de referidos. Necesitan campaña de prospección Outbound en LinkedIn + email enriquecido con Apollo/Sales Navigator para contactar CISOs y Gerentes de TI en Chile y Perú. Meta: agendar 15 reuniones calificadas al mes. Tienen $3,000 USD mensuales de presupuesto durante 3 meses de prueba. Nosotros ponemos los copys, secuencias, bases de datos y la gestión del funnel. Ellos ponen los closers para atender las reuniones."
+    },
+    "criterios_evaluacion": [
+      "Debe estructurarse como servicio de Retainer / Acompañamiento trimestral.",
+      "Debe comprometer entregables de prospección: ICP validado, secuencias de copy y agendamiento calificado.",
+      "Debe clarificar que el cliente es responsable de cerrar las ventas en la reunión.",
+      "Tabla presupuestaria con valor mensual ($3,000 USD/mes) y total trimestral ($9,000 USD)."
+    ],
+    "resultado_v1": {
+      "diagnostico": "Describe una estrategia de redes sociales común (Instagram/Facebook) no apta para ciberseguridad B2B.",
+      "alcance": "Confunde generación de leads con cierre comercial garantizado.",
+      "cronograma": "Sin división de sprint de setup vs meses de prospección activa.",
+      "presupuesto": "Solo dice $3,000 USD sin aclarar si es único o mensual."
+    },
+    "resultado_v2": {
+      "diagnostico": "Diagnóstico de venta compleja B2B con foco exclusivo en tomadores de decisión (CISOs/CIOs) vía LinkedIn y email corporativo.",
+      "alcance": "Configuración de dominios secundarios, warmup, secuencias de cold email, prospección en LinkedIn y entregable de 15 reuniones mensuales.",
+      "cronograma": "Mes 1: Setup técnico, ICP y copys. Meses 2 y 3: Campaña activa de prospección y optimización continua.",
+      "presupuesto": "Tabla con Desglose Mensual: Mes 1 ($3,000), Mes 2 ($3,000), Mes 3 ($3,000). Total Trimestre: $9,000 USD."
+    },
+    "mejora_medida": "Alineación B2B corregida al 100%. Eliminación del riesgo de garantizar cierres de venta fuera del control de la agencia."
+  },
+  {
+    "id": "caso_04_migracion_infraestructura",
+    "titulo": "Fintech de Créditos 'MicroPresta'",
+    "input": {
+      "cliente": "MicroPresta Fintech",
+      "servicio": "Infraestructura Cloud & DevOps",
+      "tono": "Ejecutivo / Formal",
+      "moneda": "USD",
+      "notas_reunion": "Entrevista con CTO Javier Beltrán. Su app web de colocación de créditos corre en un servidor dedicado antiguo en un data center local. Cada fin de mes cuando la gente pide créditos el servidor colapsa por concurrencia. Quieren containerizar la app en Docker y migrar a Google Cloud Run o AWS ECS con balanceador de carga y base de datos gestionada (PostgreSQL). Necesitan cero downtime en la migración de datos. Plazo urgente: 3 semanas. Tienen presupuesto aprobado de hasta $5,000 USD para servicios de consultoría de migración (gastos de consumo de nube van con su tarjeta)."
+    },
+    "criterios_evaluacion": [
+      "Debe priorizar la arquitectura de alta disponibilidad y contingencia sin downtime.",
+      "Debe separar de forma tajante los honorarios de consultoría de los costos de facturación de nube de AWS/GCP.",
+      "Cronograma intensivo de 3 semanas (Setup, Staging, Migración en ventana de bajo tráfico).",
+      "Tabla presupuestaria en USD que sume exactamente la inversión acordada."
+    ],
+    "resultado_v1": {
+      "diagnostico": "Habla de 'pasar a la nube' sin mencionar Docker ni concurrencia de fin de mes.",
+      "alcance": "No aclara quién paga las facturas mensuales de los servidores cloud.",
+      "cronograma": "No contempla ventana de mantenimiento ni pruebas de rollback.",
+      "presupuesto": "Monto único de $5,000 sin detalle de fases de ingeniería."
+    },
+    "resultado_v2": {
+      "diagnostico": "Enfocado en resolver la saturación de concurrencia de fin de mes mediante escalabilidad automática y BD gestionada.",
+      "alcance": "Dockerización, Terraform/IaC, pipeline CI/CD, migración sin pérdida de datos. Exclusión explícita de costos de infraestructura cloud.",
+      "cronograma": "Semana 1: Dockerización y Ambiente Staging. Semana 2: Pruebas de Carga y Migración BD. Semana 3: Cutover final y monitoreo 24/7.",
+      "presupuesto": "Tabla con Fase 1 ($1,800), Fase 2 ($2,200), Fase 3 ($1,000). Total: $5,000 USD."
+    },
+    "mejora_medida": "Eliminación de ambigüedades técnicas y definición estricta de la ventana de rollback/cero downtime."
+  },
+  {
+    "id": "caso_05_rebranding_gastronomico",
+    "titulo": "Línea de Alimentos Saludables 'VerdePuro'",
+    "input": {
+      "cliente": "VerdePuro Alimentos",
+      "servicio": "Diseño de Marca & Packaging",
+      "tono": "Cercano / Colaborativo",
+      "moneda": "CLP",
+      "notas_reunion": "Camila y Tomás tienen una marca de snacks saludables de frutos secos y barritas. Hoy venden en ferias y empaques genéricos con etiquetas impresas en casa. Entrarán a una cadena de tiendas gourmet y les exigen empaques profesionales con tabla nutricional y código de barras. Necesitan rediseño de logotipo, manual de normas gráficas y diseño de 3 empaques (Doypack). Además, una landing page one-page simple para captar distribuidores. Plazo: 4 semanas. Presupuesto: $1.800.000 CLP. Ojo: los costos de imprenta de las bolsas los pagan ellos directamente a la fábrica de plásticos."
+    },
+    "criterios_evaluacion": [
+      "Tono cercano, fresco y colaborativo adaptado a emprendimiento saludable.",
+      "Entregables claros: Logo, Manual de Marca, 3 Doypacks listos para imprenta y Landing Page.",
+      "Exclusión explícita de los costos de tiraje/impresión física y certificaciones de laboratorio nutricional.",
+      "Tabla presupuestaria en CLP totalizando $1.800.000."
+    ],
+    "resultado_v1": {
+      "diagnostico": "Trata a la marca como una gran corporación de alimentos con lenguaje frío.",
+      "alcance": "No especifica si el costo incluye las bolsas impresas, lo que causaría disputas legales.",
+      "cronograma": "Cronograma desorganizado de 2 meses (excede las 4 semanas pedidas).",
+      "presupuesto": "Menciona $1.800.000 pero no desglosa el costo del packaging vs la landing page."
+    },
+    "resultado_v2": {
+      "diagnostico": "Cercano y motivador: el salto desde empaques artesanales a retail gourmet manteniendo la esencia natural.",
+      "alcance": "Hitos claros: Identidad visual, 3 artes finales en curvas para imprenta y Landing Page responsiva. Excluye costos de impresión de bolsas.",
+      "cronograma": "Semana 1: Identidad y Concepto Visual. Semana 2: Diseño de los 3 Doypacks. Semana 3: Landing Page. Semana 4: Entrega de archivos de imprenta.",
+      "presupuesto": "Tabla detallada: Identidad ($500.000), 3 Empaques ($800.000), Landing Page ($500.000). Total: $1.800.000 CLP."
+    },
+    "mejora_medida": "Cumplimiento del 100% del cronograma urgente de 4 semanas y blindaje sobre los costos de imprenta."
+  }
+]
